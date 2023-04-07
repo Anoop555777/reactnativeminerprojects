@@ -27,7 +27,11 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Button title="OpenModelAndAddToList" onPress={modelViewChangeHandler} />
+      <Button
+        title="Open Model And Add To List"
+        onPress={modelViewChangeHandler}
+        color="purple"
+      />
       <GoalInput
         onClick={addListHandler}
         visible={modelVisibility}
